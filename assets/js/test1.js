@@ -20,11 +20,20 @@ var circle = L.circle([12.2469389, 109.1657535], {
     radius: 300
 }).addTo(map).bindPopup('I am a circle.');
 
-// var polygon = L.polygon([
-//     [51.509, -0.08],
-//     [51.503, -0.06],
-//     [51.51, -0.047]
-// ]).addTo(map).bindPopup('I am a polygon.');
+var polygon = L.polygon([
+    [12.258967, 109.189033],
+    [12.258141, 109.193836],
+    [12.259727, 109.198401],
+    [12.254175, 109.196609],
+    [12.253382, 109.196440],
+    [12.241320, 109.196405],
+    [12.247186, 109.189133],
+    [12.249245, 109.182841],
+    [12.250423, 109.184730],
+    [12.251678, 109.186114],
+    [12.252972, 109.189855],
+    [12.256767, 109.188544]    
+]).addTo(map).bindPopup('Trung tâm hành chính Nha Trang.');
 
 
 var popup = L.popup()
@@ -98,4 +107,84 @@ $('#tree').treeview({
         //new bootstrap.Modal(document.getElementById('exampleModal')).show();
 
     }
+});
+
+location1 =[
+    {
+        name:"Trung tâm hành chính TP. Nha Trang",
+        lat:12.244461,
+        lng:109.1835409, 
+        level:15
+    },   
+    {
+        name:"Telecommunications University",
+        lat:12.283665, 
+        lng:109.199666, 
+        level:15
+    },
+    {
+        name:"Trường Đại học Nha Trang",
+        lat: 12.268508, 
+        lng: 109.202323, 
+        level:15
+    },
+];
+
+location2 =[
+    {
+        name:"Champa Island Nha Trang - Resort Hotel & Spa",
+        lat:12.2639514,
+        lng:109.1692024, 
+        level:15
+    },
+    {
+        name:"Muong Thanh Luxury Vien Trieu Hotel",
+        lat:12.2708335,
+        lng:109.1900314, 
+        level:15
+    },
+    {
+        name:"Scenia Bay Nha Trang",
+        lat:12.2757632,
+        lng:109.1831937, 
+        level:15
+    },
+];
+
+location3 =[
+    {
+        name:"Chùa Từ Tôn",
+        lat: 12.266679, 
+        lng: 109.208184, 
+        level: 17
+    },
+    {
+        name:"Sunrise Beach",
+        lat:12.250322, 
+        lng:109.196685, 
+        level:16
+    },
+    {
+        name:"Quảng trường 2-4",
+        lat:12.239281, 
+        lng:109.197221, 
+        level:17
+    },
+];
+
+function goTo(name, lat, lng, level){
+    var marker = L.marker([lat,lng]).addTo(map)
+    .bindPopup(name).openPopup();
+    map.setView([lat, lng], level);
+    $("#pText").html("Latitude: " + lat.toString() + "; Longitude: " + lng.toString());
+}
+
+$(function() {
+    //console.log( "ready!" );    
+    $("#listGroup1").html("");
+    $('#locationTemplate').tmpl(location1).appendTo('#listGroup1');
+    $("#listGroup2").html("");
+    $('#locationTemplate').tmpl(location2).appendTo('#listGroup2');
+    $("#listGroup3").html("");
+    $('#locationTemplate').tmpl(location3).appendTo('#listGroup3');
 });

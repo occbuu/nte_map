@@ -106,7 +106,9 @@
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin />
-
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" />
     <link href="assets/css/bootstrap-treeview.css" rel="stylesheet" />
   </head>
 
@@ -203,7 +205,9 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
       aria-label="Main navigation">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Offcanvas navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logoiscm.png" style="height: 25px;"/>
+        </a>
         <button class="navbar-toggler p-0 border-0" type="button"
           id="navbarSideCollapse" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -267,15 +271,14 @@
     <main class="container">
       <div
         class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-        <img class="me-3" src="assets/brand/bootstrap-logo-white.svg" alt
-          width="48" height="38" />
+        <img class="me-3" src="assets/imgs/logoiscm.png" alt height="28" />
         <div class="lh-1">
-          <h1 class="h6 mb-0 text-white lh-1">Bootstrap</h1>
+          <h1 class="h6 mb-0 text-white lh-1">ISCM - UEH</h1>
           <small>Since 2011</small>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-2">          
+        <div class="col-md-2">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -290,7 +293,8 @@
                 <div class="accordion-body">
                   <strong>This is the first item's accordion body.</strong> It
                   is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. It's also
+                  appropriate classes that we use to style each element. It's
+                  also
                   worth noting that just about any HTML can go within the <code>.accordion-body</code>,
                   though the transition does limit overflow.
                 </div>
@@ -307,12 +311,38 @@
               <div id="collapseTwo" class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the <code>.accordion-body</code>,
-                  though the transition does limit overflow.
+                  <div class="list-group">
+                    <a class="list-group-item" data-bs-toggle="collapse"
+                      href="#listGroup1" role="button" aria-expanded="false"
+                      aria-controls="listGroup1">
+                      <h5 class="list-group-item-heading">Trung tâm hành chính</h5>
+                      <div id="listGroup1" class="list-group collapse mt-1 mb-1">
+                        <a href="#" class="list-group-item">Trung tâm hành chính TP. Nha Trang</a>
+                        <a href="#" class="list-group-item">Telecommunications University</a>
+                        <a href="#" class="list-group-item">Trường Đại học Nha Trang</a>
+                      </div>
+                    </a>
+                    <a class="list-group-item" data-bs-toggle="collapse"
+                      href="#listGroup2" role="button" aria-expanded="false"
+                      aria-controls="listGroup2">
+                      <h5 class="list-group-item-heading">Du lịch</h5>
+                      <div id="listGroup2" class="list-group collapse mt-1 mb-1">
+                        <a href="#" class="list-group-item">First item</a>
+                        <a href="#" class="list-group-item">Second item</a>
+                        <a href="#" class="list-group-item">Third item</a>
+                      </div>
+                    </a>
+                    <a  class="list-group-item" data-bs-toggle="collapse"
+                    href="#listGroup3" role="button" aria-expanded="false"
+                    aria-controls="listGroup3">
+                      <h5 class="list-group-item-heading">Công cộng</h5>
+                      <div id="listGroup3" class="list-group collapse mt-1 mb-1">
+                        <a href="#" class="list-group-item">First item</a>
+                        <a href="#" class="list-group-item">Second item</a>
+                        <a href="#" class="list-group-item">Third item</a>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -346,7 +376,8 @@
               aria-controls="collapseExample">
               Link with href
             </a>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
               Launch demo modal
             </button>
           </p>
@@ -365,9 +396,9 @@
         <div class="col-md-4 d-flex align-items-center">
           <a href="/"
             class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap" /></svg>
+            <img src="assets/imgs/uehiscmlogo.png" height="30"/>
           </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company,
+          <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 ISCM,
             Inc</span>
         </div>
 
@@ -383,28 +414,35 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
           </div>
           <div class="modal-body">
             ...
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
+      <script type="text/x-jquery-tmpl" id="locationTemplate">
+        <a href="javascript:void(0);" onclick="goTo('${name}',${lat},${lng},${level})" class="list-group-item">${name}</a>
+      </script>
     </div>
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
     <script src="assets/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -412,6 +450,7 @@
 
     <script src="assets/js/offcanvas-navbar.js"></script>
     <script src="assets/js/bootstrap-treeview.js"></script>
+    <script src="assets/js/jquery.tmpl.js"></script>
     <script src="assets/js/test1.js"></script>
   </body>
 
