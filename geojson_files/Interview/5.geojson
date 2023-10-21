@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "5",
+"features": [
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.194636, 12.2347455 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.1948549, 12.2344748 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.1949632, 12.2360719 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1938849, 12.2378117 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1945776, 12.2374358 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1950772, 12.2381749 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1942249, 12.2381285 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1943669, 12.2376109 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1947657, 12.2378122 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1934311, 12.2382555 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.194741, 12.2383877 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1938434, 12.2394446 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.1932116, 12.2396812 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.1936748, 12.2402729 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.1933384, 12.2407745 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1935849, 12.241613 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1942523, 12.2379503 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1946855, 12.2380342 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1945116, 12.2377792 ] } }
+]
+}

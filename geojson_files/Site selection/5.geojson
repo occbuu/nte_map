@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "5",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4979" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 82646.0, "handle": 222089, "block": -1, "etype": 18, "space": 0, "layer": "Site Selection", "olinetype": "bylayer", "linetype": null, "color": "255,0,0,159", "ocolor": 256, "color24": -1, "transparen": 0, "lweight": -1, "linewidth": 0.6, "ltscale": 1.0, "visible": 1, "width": 0.0, "thickness": 0.0, "ext": "(3:0,0,0.1)" }, "geometry": { "type": "LineString", "coordinates": [ [ 109.1928351, 12.2440343, 0.0 ], [ 109.193247, 12.2383567, 0.0 ], [ 109.1947093, 12.2328716, 0.0 ], [ 109.1963594, 12.2331988, 0.0 ], [ 109.1958605, 12.2357708, 0.0 ], [ 109.1949137, 12.2422232, 0.0 ], [ 109.192834935144049, 12.244034369476072, 0.0 ] ] } }
+]
+}

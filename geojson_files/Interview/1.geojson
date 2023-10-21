@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "1",
+"features": [
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1903292, 12.2426556 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.191368, 12.2414781 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1923469, 12.2408651 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1924313, 12.2408681 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.190397, 12.2430309 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1904406, 12.2428284 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1903499, 12.242851 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1903037, 12.2430189 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1923544, 12.2403714 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.192421, 12.2403799 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Researcher" }, "geometry": { "type": "Point", "coordinates": [ 109.1923602, 12.2404471 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.192332, 12.2410644 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1923349, 12.240457 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1923896, 12.2403893 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1908422, 12.2401021 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1923633, 12.2404112 ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "1",
+"features": [
+{ "type": "Feature", "properties": { "fid": 82645.0, "handle": 222088, "block": -1, "etype": 18, "space": 0, "layer": "Site Selection", "olinetype": "bylayer", "linetype": null, "color": "255,0,0,159", "ocolor": 256, "color24": -1, "transparen": 0, "lweight": -1, "linewidth": 0.6, "ltscale": 1.0, "visible": 1, "width": 0.0, "thickness": 0.0, "ext": "(3:0,0,0.1)" }, "geometry": { "type": "LineString", "coordinates": [ [ 109.1882523, 12.2414563, 0.0 ], [ 109.1916371, 12.2451969, 0.0 ], [ 109.1924653, 12.2445032, 0.0 ], [ 109.1925002, 12.2383467, 0.0 ], [ 109.1922319, 12.2383145, 0.0 ], [ 109.1919855, 12.238232, 0.0 ], [ 109.1882523, 12.2414563, 0.0 ] ] } }
+]
+}

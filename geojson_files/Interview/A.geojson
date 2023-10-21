@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "A",
+"features": [
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1974672, 12.2651009 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1994793, 12.2656069 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1995287, 12.2655298 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Owner" }, "geometry": { "type": "Point", "coordinates": [ 109.1996173, 12.2655311 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.199688, 12.2654557 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.199012, 12.2641666 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1993607, 12.2642375 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.1998279, 12.2642821 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Tourist" }, "geometry": { "type": "Point", "coordinates": [ 109.2005276, 12.2648272 ] } },
+{ "type": "Feature", "properties": { "id": null, "TYPE": "Resident" }, "geometry": { "type": "Point", "coordinates": [ 109.2010439, 12.264942 ] } }
+]
+}
